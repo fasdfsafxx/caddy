@@ -32,6 +32,7 @@ import (
 	_ "github.com/caddyserver/caddy/caddyhttp/internalsrv"
 	_ "github.com/caddyserver/caddy/caddyhttp/limits"
 	_ "github.com/caddyserver/caddy/caddyhttp/log"
+	_ "github.com/caddyserver/caddy/caddyhttp/logip"
 	_ "github.com/caddyserver/caddy/caddyhttp/markdown"
 	_ "github.com/caddyserver/caddy/caddyhttp/mime"
 	_ "github.com/caddyserver/caddy/caddyhttp/pprof"

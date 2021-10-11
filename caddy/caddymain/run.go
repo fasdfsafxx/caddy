@@ -40,6 +40,7 @@ import (
 
 	_ "github.com/caddyserver/caddy/caddyhttp" // plug in the HTTP server type
 	// This is where other plugins get plugged in (imported)
+	_ "github.com/pyed/ipfilter"
 )
 
 func init() {
@@ -609,4 +610,4 @@ var (
 )
 
 // EnableTelemetry defines whether telemetry is enabled in Run.
-var EnableTelemetry = true
+var EnableTelemetry = false

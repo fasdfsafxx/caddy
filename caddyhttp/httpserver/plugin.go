@@ -640,6 +640,7 @@ var directives = []string{
 	// directives that add middleware to the stack
 	"locale", // github.com/simia-tech/caddy-locale
 	"log",
+	"logip",
 	"cache", // github.com/nicolasazrak/caddy-cache
 	"rewrite",
 	"ext",
